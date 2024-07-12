@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinBaseProjectWithNavigation</string>
+    <string name="str_first">First</string>
+    <string name="str_second">Second</string>
+</resources>

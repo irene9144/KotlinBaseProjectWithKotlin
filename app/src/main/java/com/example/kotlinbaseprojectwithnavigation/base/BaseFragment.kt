@@ -82,7 +82,7 @@ abstract class BaseFragment<T : ViewBinding, V : ViewModel> :
         super.onViewCreated(view, savedInstanceState)
         initViews()
         initViewModel()
-
+        observeViewModel()
     }
 
     override fun onDestroyView() {

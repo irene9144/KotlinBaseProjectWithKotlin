@@ -56,18 +56,6 @@ abstract class BaseActivity<B : ViewBinding, V : BaseViewModel>(val bindingFacto
 
     }
 
-    override fun onResume() {
-        super.onResume()
-
-    }
-    override fun onStart() {
-        super.onStart()
-    }
-
-    override fun onPause() {
-        super.onPause()
-    }
-
     override fun onDestroy() {
         super.onDestroy()
         _binding = null
